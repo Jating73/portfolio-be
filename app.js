@@ -25,6 +25,10 @@ app.options('*', cors());
 app.use(express.json());
 app.use(morgan('tiny'));
 
+app.get('/', (req, res) => {
+    res.send("Application is up!");
+})
+
 
 // Routes
 app.use('/api/v1/education', education);
