@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-app-BE",
+  "version": "1.0.0",
+  "description": "Backend APIs for my portfolio Control Panel as well as Showcase Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Jatin Gambhir",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.4.4",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.19",
+    "request": "^2.53.0"
+  }
+}
